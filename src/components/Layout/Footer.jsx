@@ -4,7 +4,7 @@ import React from "react";
 
 const socialLinks = [
   {
-    href: "https://www.linkedin.com/in/shauryacious/",
+    href: "https://www.linkedin.com/in/raaghav09/",
     label: "LinkedIn",
     icon: (
       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -13,7 +13,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "https://github.com/Shauryacious/cp-duel",
+    href: "https://github.com/Raaghav-09/Algozen",
     label: "GitHub",
     icon: (
       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -22,7 +22,7 @@ const socialLinks = [
     ),
   },
   {
-    href: "mailto:shauryaagrawal2718@gmail.com",
+    href: "mailto:raghavmahajanofficial09@gmail.com",
     label: "Email",
     icon: (
       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -46,7 +46,7 @@ function Footer() {
         {/* Logo & Name */}
         <div className="flex flex-col items-center md:items-start">
           <span className="text-2xl font-bold text-cyan-400 tracking-wide">
-            CP Duel
+            Algozen
           </span>
           <span className="text-slate-400 text-sm mt-1">
             The arena for competitive programmers.
@@ -87,7 +87,7 @@ function Footer() {
         <span>© {new Date().getFullYear()} CP Duel. All rights reserved.</span>
         <span className="block mt-1">
           Made with <span className="text-cyan-400">♥</span> for competitive
-          programmers by <span className="text-cyan-400">Shaurya Agrawal</span>
+          programmers by <span className="text-cyan-400">Raghav Mahajan</span>
           .
         </span>
       </div>
