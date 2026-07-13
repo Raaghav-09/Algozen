@@ -156,7 +156,7 @@ function SheetPageLayout({
 
             return (
               <section
-                key={section.title}
+                key={`${sectionIdx}-${section.title}`}
                 className="bg-slate-800 rounded-2xl border border-slate-700 shadow-xl p-6"
                 aria-labelledby={`section-${sectionIdx}-title`}
                 role="region"
